@@ -1,0 +1,47 @@
+{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(index.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    background:rgba(249, 248, 250, 0.062);
+    border: 1px solid rgba(247, 243, 243, 0.493);   
+    backdrop-filter: blur(2px);  
+    font-weight: bold                     
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textprice{
+    border-radius: 10px;
+    width: 250px;
+}
+.btnm{
+    background: transparent;
+    font-weight: bold
+}
+.btns{
+    width: 150px;
+    height: 35px;
+    background-color: rgba(0, 0, 255, 0.856);
+    border-radius: 5px;
+}
+
+    
