@@ -11,9 +11,9 @@
     <div class="box" style="margin-left: 450px;margin-top: 100px;">
         <h1 style="color: aliceblue;">Register</h1>
 
-            <input class="textbox" type="text" id="name" placeholder="First name"> 
-            <input class="textbox" type="text" id="name" placeholder="Last name" style="margin-top: 7px;margin-bottom: 7px;"> 
-            <input class="textbox" type="text" id="name" placeholder="Id line">
+            <input class="textbox" type="text" name="first name" id="name" placeholder="First name"> 
+            <input class="textbox" type="text" name="Last name" id="name" placeholder="Last name" style="margin-top: 7px;margin-bottom: 7px;"> 
+            <input class="textbox" type="text" name="Id line" id="name" placeholder="Id line">
 
             <label for="genderMale" style="margin-top: 7px;">
                 <input type="radio" name="sex" id="genderMale" class="gender">Male
@@ -27,14 +27,14 @@
                        <h4>Package Price</h4>
                            <input type="text" class="textprice" id="Showprice" name="package" style="margin-bottom: 7px;">
 
-                           <button class="btnm" id="Per1Month" type="button"onclick="ShowpriceProduct('100')"> 1 Month 
+                           <button class="btnm" id="Per1Month" name="price" type="button"onclick="ShowpriceProduct('100')"> 1 Month 
                            </button>
                       
-                           <button class="btnm" style="margin-bottom: 5px;margin-top: 5px;" id="Per3Month" type="button"
+                           <button class="btnm" style="margin-bottom: 5px;margin-top: 5px;" id="Per3Month" name="price" type="button"
                            onclick="ShowpriceProduct('300')"> 3 Month 
                            </button>
                       
-                           <button class="btnm"id="Per12Month" type="button"onclick="ShowpriceProduct('1200')"> 12 Month 
+                           <button class="btnm"id="Per12Month" name="price" type="button"onclick="ShowpriceProduct('1200')"> 12 Month 
                            </button>
 
                   </div>
